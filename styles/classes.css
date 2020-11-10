@@ -1,3 +1,10 @@
+.canvas {
+  display: inline-block;
+  width: auto;
+  padding: 10px;
+  border: whitesmoke outset 3px;
+}
+
 .impactSentence {
   margin-bottom: 0px;
 }
@@ -17,16 +24,18 @@
 }
 
 .buttonIntegration {
-  width: 21rem;
-  height: 4rem;
+  max-width: 21em;
+  height: 4em;
   background-image: linear-gradient(crimson, rgb(0, 0, 255, 0.7), gray);
   opacity: 0.9;
   margin: 25px auto;
   border: white solid 2px;
+  border-radius: 15px;
 }
 
 .callTitle {
+  font-size: 1.75em;
   font-family: Impact, Verdana, Geneva, Tahoma, sans-serif;
   text-decoration: line-through;
-  color: black;
+  color: white;
 }

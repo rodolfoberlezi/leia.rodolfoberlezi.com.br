@@ -1,6 +1,8 @@
-//jquery raíz
-//slashIn?
-//nome e sobrenome, cada um vindo de um lado, se encontram no meio
-//ai corta em 2 imagens
+var roundLogEl = document.querySelector('.round');
 
-//frase principal, fadeIn
+anime({
+  targets: roundLogEl,
+  innerHTML: [0, 30],
+  easing: 'linear',
+  round: 1 // Will round the animated value to 1 decimal
+});

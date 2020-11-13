@@ -10,6 +10,17 @@
   border: whitesmoke outset 3px;
 }
 
+.impact {
+  margin-top: 10px;
+  width: auto;
+  border-bottom: 1px dashed whitesmoke;
+  display: none;
+}
+
+.round {
+  font-size: 2rem;
+}
+
 .impactSentence {
   margin-bottom: 0px;
 }

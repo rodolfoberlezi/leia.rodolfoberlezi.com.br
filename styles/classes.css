@@ -38,6 +38,16 @@
   align-items: center;
 }
 
+.iframe {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.youtube{
+  width: 420px;
+  height: 315px;
+}
+
 .buttonIntegration {
   max-width: 21em;
   height: 4em;

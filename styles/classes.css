@@ -7,13 +7,13 @@
   display: inline-block;
   width: auto;
   padding: 10px;
-  border: whitesmoke outset 3px;
+  border: #000000 outset 3px;
 }
 
 .impact {
   margin-top: 10px;
   width: auto;
-  border-bottom: 1px dashed whitesmoke;
+  border-bottom: 1px dashed #000000;
 }
 
 .round {
@@ -34,7 +34,7 @@
   display: inline-block;
   width: 77%;
   padding: 10px;
-  border: whitesmoke outset 3px;
+  border: #000000 outset 3px;
 }
 
 .linkIntegration {
@@ -65,24 +65,29 @@
   background-image: linear-gradient(crimson, rgb(0, 0, 255, 0.7), gray);
   opacity: 0.9;
   margin: 25px auto;
-  border: white solid 2px;
+  border: #000000 solid 2px;
   border-radius: 15px;
 }
 
 .callTitle {
   font-size: 1.75em;
   font-family: Impact, Verdana, Geneva, Tahoma, sans-serif;
-  color: white;
+  color: #000000;
 }
 
 .callTitle:hover {
   text-decoration: line-through;
-  color: black;
+  color: whitesmoke;
 }
 
 .logo {
   width: 64px;
   height: 64px;
+}
+
+.galery {
+  display: flex;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 800px) {

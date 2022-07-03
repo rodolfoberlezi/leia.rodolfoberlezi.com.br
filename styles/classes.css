@@ -1,3 +1,9 @@
+.background {
+  background-image: url("../imgs/Power\ heart\ -\ textura.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .imgTitle {
   max-width: 100%;
   height: auto;
@@ -51,10 +57,9 @@
 }
 
 .amazonButton {
-  max-width: 21em;
+  max-width: 27em;
   height: 4em;
   background-color: #ff9900;
-  opacity: 0.9;
   margin: 25px auto;
   border: #ffffff solid 2px;
   border-radius: 15px;
